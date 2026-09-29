@@ -69,7 +69,7 @@ resource "aws_db_instance" "shop" {
   identifier     = "shop-db"
   engine         = "postgres"
   engine_version = "17"
-  instance_class = "db.t4g.micro"
+  instance_class = "db.t4g.small"
 
   allocated_storage = 20
   storage_type      = "gp3"
